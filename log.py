@@ -136,7 +136,6 @@ class Log():
         }
         # Display the log the user desires to edit and present them with the
         # edit menu, getting their chosen action.
-        
         clear_screen()
         print("Original Log:")
         self.display_log()
@@ -179,7 +178,7 @@ class Log():
             edited_log.display_log()
 
             # Update work_log.txt if the user confirms their edits by adding
-            # the jeditted log, and deleting the original log.
+            # the editted log, and deleting the original log.
             if confirm_user_action():
                 edited_log.add_log()
                 self.delete_log()
