@@ -23,7 +23,6 @@ def confirm_user_action():
 def clear_screen():
     """Clears the screen"""
     os.system('cls' if os.name == 'nt' else 'clear')
-    print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
 
 def menu(options):
